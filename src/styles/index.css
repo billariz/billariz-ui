@@ -1,0 +1,16 @@
+.PhoneInputInput {
+  border: none !important;
+  outline: none !important; /* Optional: to remove the outline when focused */
+}
+.react-international-phone-input {
+  width: 80%;
+}
+
+.maxWidth {
+  max-width: 90% !important;
+}
+
+.csvdownloader {
+  background-color: transparent;
+  border: none;
+}

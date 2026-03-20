@@ -1,0 +1,23 @@
+{
+  "Login": {
+    "Connexion": "Iniciar sesión",
+    "email": "Usuario",
+    "sendCode": "Enviar código",
+    "validate": "Validar",
+    "code": "Código",
+    "password": "Contraseña",
+    "confirmPassword": "Por favor, confirma tu contraseña",
+    "resetPassword": "Restablecer contraseña",
+    "userNotFound": "Usuario no encontrado",
+    "error": "Ocurrió un error, por favor intenta de nuevo",
+    "resetPasswordSuccess": "Contraseña restablecida con éxito",
+    "rememberMe": "Recuérdame",
+    "forgotPassWord": "¿Olvidaste tu contraseña?",
+    "confirmPasswordError": "Las contraseñas deben coincidir",
+    "login": "Iniciar sesión",
+    "wrongPassword": "Correo o contraseña incorrectos",
+    "writeEmail": "Ingresa tu correo electrónico",
+    "writeNewPassword": "Ingresa tu nueva contraseña",
+    "copyright": "Reservados todos los derechos."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Login": {
+    "Connexion": "Login",
+    "email": "Username",
+    "sendCode": "Send code",
+    "validate": "Validate",
+    "code": "Code",
+    "password": "Password",
+    "confirmPassword": "Please confirm your password",
+    "resetPassword": "Reset password",
+    "userNotFound": "User not found",
+    "error": "An error occurred, please try again",
+    "resetPasswordSuccess": "Password reset successfully",
+    "rememberMe": "Remember me",
+    "forgotPassWord": "Forgot password?",
+    "confirmPasswordError": "Passwords must match",
+    "login": "Login",
+    "wrongPassword": "Incorrect email or password",
+    "writeEmail": "Enter your email",
+    "writeNewPassword": "Enter your new password",
+    "copyright": "All rights reserved."
+  }
+}

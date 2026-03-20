@@ -1,0 +1,64 @@
+# ===========================
+# Dépendances
+# ===========================
+node_modules/
+
+# ===========================
+# Build
+# ===========================
+build/
+dist/
+coverage/
+
+# ===========================
+# Secrets & configuration locale
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Terraform (infra AWS — non publiée)
+# ===========================
+terraform/
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+.DS_STORE
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+*.log*
+
+# ===========================
+# Misc
+# ===========================
+.flowconfig
+*~
+*.pyc
+.grunt
+chrome-user-data
+remote-repo/
+.module-cache
+
+# GitHub Actions workflows (CI/CD interne)
+.github/

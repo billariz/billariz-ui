@@ -1,0 +1,42 @@
+{
+  "footer": {
+    "copyright": "Tous droits réservés."
+  },
+  "login": {
+    "connect": "Se connecter",
+    "description": "Connecter vous pour accéder à votre compte",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "stayConnected": "Rester connecté",
+    "forgotPassword": "Mot de passe oublié ? ",
+    "passwordRequired": "Mot de pasee est obligatoire",
+    "emailRequired": "L'e-mail est obligatoire",
+    "ou": "Or",
+    "connectWithGoogle": "Se connecter avec Google",
+    "connectWithMicrosoft": "Se connecter avec Microsoft",
+    "notRegistred": "Pas encore inscrit ?",
+    "discoverOurOffers": "Découvrez nos offres",
+    "wrongPassword": "Mail ou mot de passe incorrect",
+    "confirmPasswordError": "Les mots de passe doivent être identique"
+  },
+  "passwordReset": {
+    "passwordReset": "Nouveau mot de passe",
+    "description": "Créez un nouveau mot de passe pour accéder à votre compte. Assurez-vous qu’il soit sécurisé.",
+    "password": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "errorMismatch": "Les mots de passe ne correspondent pas",
+    "code": "Code",
+    "codeRequired": "Le code est obligatoire",
+    "resetPasswordSuccess": "Mot de passe réinitialisé avec succès",
+    "error": "Une erreur sest produite veuillez reessayer"
+  },
+  "forgotPassword": {
+    "userNotFound": "Utilisateur non trouvé",
+    "error": "Une erreur sest produite veuillez reessayer",
+    "forgotPassword": "Mot de passe oublié ?",
+    "description": "Entrez l’adresse e-mail associée à votre compte. Vous recevrez un lien pour réinitialiser votre mot de passe",
+    "email": "Adresse email",
+    "continue": "Continuer"
+  }
+}

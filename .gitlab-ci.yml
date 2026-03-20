@@ -1,0 +1,21 @@
+include:
+  - project: 'ci/gitlab'
+    file: '/Node.yml'
+
+image: stardif/java-nodejs:node-18.16-java-17
+
+variables:
+  ENV_MAIN_NAME: ''
+  ENV_TAG_NAME: ''
+  TERRAFORM_IMAGE: stardif/java-nodejs:node-18.16-java-17
+
+.Deploy:
+  before_script:
+    - export $(cat terraform_output.txt | tr -d ' ' | tr -d '"')
+    - export REACT_APP_HOST_API=$back_url
+    - export REACT_APP_COGNITO_USER_POOL_ID=$back_cognito_user_pool_id
+    - export REACT_APP_COGNITO_CLIENT_ID=$back_cognito_client_id
+    - cd $BASE_DIR
+    - npm install
+    - DISABLE_ESLINT_PLUGIN=true npm run-script build
+    - test -z "$bucket" || aws s3 sync build $bucket
